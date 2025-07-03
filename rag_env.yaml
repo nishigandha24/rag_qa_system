@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: rag_env
 channels:
   - defaults
@@ -14,3 +15,21 @@ dependencies:
     - scikit-learn
     - rouge
     - python-dotenv
+=======
+name: rag_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - streamlit
+    - google-generativeai
+    - PyPDF2
+    - sentence-transformers
+    - faiss-cpu
+    - scikit-learn
+    - rouge
+    - python-dotenv
+>>>>>>> 3b88f5f4c7b6a9c2501e7e09e0ff36acfb8d56b6

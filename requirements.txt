@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 google-generativeai
 PyPDF2
@@ -6,3 +7,13 @@ faiss-cpu
 scikit-learn
 rouge
 python-dotenv
+=======
+streamlit
+google-generativeai
+PyPDF2
+sentence-transformers
+faiss-cpu
+scikit-learn
+rouge
+python-dotenv
+>>>>>>> 3b88f5f4c7b6a9c2501e7e09e0ff36acfb8d56b6
