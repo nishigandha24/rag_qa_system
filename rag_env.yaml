@@ -1,0 +1,16 @@
+name: rag_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - streamlit
+    - google-generativeai
+    - PyPDF2
+    - sentence-transformers
+    - faiss-cpu
+    - scikit-learn
+    - rouge
+    - python-dotenv
