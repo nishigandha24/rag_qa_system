@@ -1,0 +1,27 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore Python virtual environment folders
+venv/
+env/
+.rag_env/
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore data/output folders (optional, edit as needed)
+data/
+output/
